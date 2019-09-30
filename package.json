@@ -1,0 +1,27 @@
+{
+  "name": "0t2.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear-dist": "rimraf dist/*",
+    "start": "npm run clear-dist && parcel index.html",
+    "build": "npm run clear-dist && parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0t2/0t2.me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0t2/0t2.me/issues"
+  },
+  "homepage": "https://github.com/0t2/0t2.me#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.12",
+    "typescript": "^3.6.3"
+  }
+}
